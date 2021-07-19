@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subbusainath/personal_blogs.git"
+    "url": "git+https://github.com/subbusainath/Blog_posts.git"
   },
   "author": "subbusainath rengasamy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/subbusainath/personal_blogs/issues"
+    "url": "https://github.com/subbusainath/Blog_posts/issues"
   },
-  "homepage": "https://github.com/subbusainath/personal_blogs#readme",
+  "homepage": "https://github.com/subbusainath/Blog_posts#readme",
   "dependencies": {
     "@prisma/client": "^2.20.1",
     "express": "^4.17.1",
