@@ -1,0 +1,30 @@
+{
+  "name": "server-side-pagination",
+  "version": "1.0.0",
+  "description": "server side pagination using nodejs,prisma with postgres",
+  "main": "pagination.js",
+  "scripts": {
+    "devStart": "nodemon pagination.js",
+    "prisma:introspect": "prisma introspect",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio --experimental"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subbusainath/personal_blogs.git"
+  },
+  "author": "subbusainath rengasamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subbusainath/personal_blogs/issues"
+  },
+  "homepage": "https://github.com/subbusainath/personal_blogs#readme",
+  "dependencies": {
+    "@prisma/client": "^2.20.1",
+    "express": "^4.17.1",
+    "prisma": "^2.20.1",
+    "prisma-studio": "^0.2.0",
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,0 +1,22 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model forensicDetails {
+  id          Int     @id @default(autoincrement())
+  first_name  String?
+  last_name   String?
+  Criminal     String?
+  Blood_group String?
+  height    Int?
+  weight    Int?
+  Evidence  String?
+}
+ 
+
